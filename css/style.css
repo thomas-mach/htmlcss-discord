@@ -24,7 +24,7 @@ ol{
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 100px;
+	padding: 70px;
 }
 
 .nav .row{
@@ -100,6 +100,9 @@ ol{
 .main_1-5 {
 	background-image: url(.././img/jumbo.png);
 	max-width: 100%;
+	background-position: center;
+	background-size: cover;
+	font-size: 30px;
 }
 
 .button{
@@ -112,7 +115,7 @@ ol{
 
 .flex-style1{
 	justify-content: center;
-	row-gap: 100px;
+	row-gap: 70px;
 	
 }
 
@@ -137,10 +140,14 @@ h1{
 	font-size: 50px;
 }
 
-.main_1-5 p{
-	font-size: 30px;
+.header{
+	background-color: #255ee9;
+	padding: 50px 0;
 }
 
+.item-button{
+	flex-grow: 1;
+}
 
 
 
