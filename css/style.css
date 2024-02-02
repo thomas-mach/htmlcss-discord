@@ -1,0 +1,185 @@
+/* RESET */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: currentColor;
+}
+
+menu,
+ul,
+ol{
+	list-style: none;
+}
+
+/* LAYOUT */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px;
+}
+
+.nav .row{
+	justify-content: space-between;	
+}
+
+.nav .main-menu{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	color: white;
+	
+
+}
+
+.container-small{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 100px;
+}
+
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+
+	
+} 
+
+
+
+.col-50{
+	width: 50%;
+}
+
+.col-33{
+	width: calc(100% / 3);
+}
+
+.col-66{
+	width: calc(2 * 200% / 6);	
+}
+
+.col-20{
+	width: calc(100% / 4);
+}
+
+.col-33{
+	width: calc(100% / 3);
+}
+
+.col-1-6{
+	width: calc(100% / 6);
+}
+
+
+/* UTILITIES */
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.space-between{
+	justify-content: space-between;
+	
+}
+
+.no-wrap{
+	flex-wrap: nowrap;
+}
+
+/* -------------------- */
+
+.main_1-5 {
+	background-image: url(.././img/jumbo.png);
+	max-width: 100%;
+}
+
+.button{
+	background-color: white;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 20px;
+	padding: 0 10px;
+}
+
+.flex-style1{
+	justify-content: center;
+	row-gap: 100px;
+	
+}
+
+.flex-style2{
+	justify-content: center;
+	row-gap: 20px;
+}
+
+.main_5-5, .main_3-5{
+	background-color: lightgrey;
+}
+
+.footer_1-2, .footer_2-2{
+	background-color: dimgrey;
+}
+
+.white-text{
+	color: white
+}
+
+h1{
+	font-size: 50px;
+}
+
+.main_1-5 p{
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+/* DEBUG */
+.debug .container {
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.debug .container-small{
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.debug .row  {
+	border: 2px solid orange;
+	padding: 10px;
+}
+
+.debug .reverse {
+	border: 2px solid orange;
+	padding: 10px;
+}
+
+.debug .space-between {
+	border: 2px solid orange;
+	padding: 10px;
+}
+
+.debug .no-wrap {
+	border: 2px solid orange;
+	padding: 10px;
+}
+
+.debug [class^='col'] {
+	border: 2px solid red;
+	padding: 10px;
+	min-height: 80px;
+}
