@@ -199,10 +199,11 @@ ol{
 
 .wave-flex{
 	display: flex;
-	flex-direction: row-reverse;
+	
 }
 
-.wave-flex .wave-rotate{
+.wave-rotate{
+	display: flex;
 	transform: rotate(180deg);
 }
 
