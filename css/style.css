@@ -3,6 +3,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 img{
@@ -24,8 +25,15 @@ ol{
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 70px;
+	padding: 100px;
 }
+
+.container-header {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
 
 .nav .row{
 	justify-content: space-between;	
@@ -100,9 +108,7 @@ ol{
 .main_1-5 {
 	background-image: url(.././img/jumbo.png);
 	max-width: 100%;
-	background-position: center;
 	background-size: cover;
-	font-size: 30px;
 }
 
 .button{
@@ -111,11 +117,17 @@ ol{
 	line-height: 40px;
 	font-size: 20px;
 	padding: 0 10px;
+	margin:  0 10px;
+}
+
+.button-color{
+	background-color: rgb(38, 38, 38);
+	color: white;
 }
 
 .flex-style1{
 	justify-content: center;
-	row-gap: 70px;
+	row-gap: 60px;
 	
 }
 
@@ -125,29 +137,78 @@ ol{
 }
 
 .main_5-5, .main_3-5{
-	background-color: lightgrey;
+	background-color: #F6F6F6;
 }
 
 .footer_1-2, .footer_2-2{
-	background-color: dimgrey;
+	background-color: #23272A;
+	color: white;
 }
 
-.white-text{
-	color: white
+.style-paragrtaph-1{
+	color: white;
+	text-align: center;	
 }
 
-h1{
+.style-paragraph-2{
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.style_title{
+	color: white;
 	font-size: 50px;
+}
+
+.style-title-2{
+	padding-top: 32px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.style-title-3 {
+	text-align: center;
+	margin:  0 200px;	
 }
 
 .header{
 	background-color: #255ee9;
-	padding: 50px 0;
+	padding: 20px 0;
 }
 
-.item-button{
-	flex-grow: 1;
+.footer-icon-ita{
+	width: 40px;
+	display: inline-block;
+	margin-right: 20px;
 }
+
+.languages{
+	margin: 20px 20px 20px 0px;
+}
+
+.footer-social-media-symbols{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.waves{
+	width: 100%;
+	
+}
+
+.wave-flex{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.wave-flex .wave-rotate{
+	transform: rotate(180deg);
+}
+
+
+
+
 
 
 
